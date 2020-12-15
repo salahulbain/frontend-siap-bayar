@@ -1,0 +1,147 @@
+body {
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+}
+
+.navbar .navbar-brand {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #071C4D;
+  text-shadow: 0px 4px 4px rgba(7, 28, 77, 0.25);
+}
+
+.navbar .navbar-nav .nav-link.active {
+  color: #071C4D;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .dropdown-item {
+  color: #071C4D;
+}
+
+.navbar .btn-login {
+  background-color: #071C4D;
+  color: #ffff;
+  border-radius: 0;
+}
+
+.navbar .btn-login:hover {
+  background-color: #1E3771;
+}
+
+.navbar .btn-navbar-right {
+  height: 70px;
+  width: 100px;
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px;
+}
+
+.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0488a6), to(rgba(4, 136, 166, 0)));
+  background: linear-gradient(#0488a6, rgba(4, 136, 166, 0));
+  max-height: 86vh;
+  padding: 110px 0 180px;
+  margin-top: -70px;
+}
+
+.header h1 {
+  color: #ffff;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  text-shadow: 0px 6px 8px rgba(7, 28, 77, 0.3);
+}
+
+.header .btn-get-started {
+  color: #ffff;
+  background-color: #FF9E35;
+}
+
+.header .btn-get-started:hover {
+  color: #ffff;
+  background-color: #faa54a;
+}
+
+/* Membuat css untuk typed text */
+/* menambahkan custom cursor */
+.typewriter::after {
+  content: "|";
+  display: inline;
+  -webkit-animation: blink 1s infinite;
+          animation: blink 1s infinite;
+}
+
+/* custom cursor animation */
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* akhir css untuk typed text */
+.payment-method {
+  margin-top: 80px;
+}
+
+.payment-method h2 {
+  font-family: 'Playfair Displai', serif;
+  font-weight: bold;
+}
+
+/* Accordion FAQ */
+.faq h2 {
+  font-family: 'Playfair Displai', serif;
+  font-weight: bold;
+}
+
+.faq .accordion .btn-faq {
+  background-color: #FAC89C;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+  font-weight: 550;
+}
+
+.faq .accordion .btn-faq:after {
+  content: '\02795';
+  float: right;
+  color: #071c4d;
+}
+
+footer {
+  background: -webkit-gradient(linear, left bottom, left top, from(#d8d8d8), to(rgba(242, 242, 242, 0)));
+  background: linear-gradient(to top, #d8d8d8, rgba(242, 242, 242, 0));
+}
+
+footer .help-center {
+  color: #787878;
+}
+
+footer .footer-text {
+  color: #787878;
+}
+/*# sourceMappingURL=main.css.map */
