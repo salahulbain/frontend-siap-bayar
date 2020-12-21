@@ -52,7 +52,7 @@
                   </div>
                 </li>
                 <li class="nav-item mx-md-2">
-                  <a href="#" class="nav-link">F&Q</a>
+                  <a href="#faq" class="nav-link">F&Q</a>
                 </li>
                 <li class="nav-item mx-md-2">
                   <a href="#" class="nav-link">About</a>
@@ -79,7 +79,7 @@
     <section class="header" id="header">
       <div class="container">
         <div class="row mt-5">
-          <div class="col-md-8 left-header">
+          <div class="col-md-8 col-12 left-header">
             <h1 class="h1" data-aos="fade-down">Sistem Informasi
               <br>Aplikasi Pembayaran SPP Onlie
               <br>LPI Markaz Al-Ishlah Al-Aziziyah
@@ -88,7 +88,7 @@
             <button class="btn btn-get-started mt-5" data-aos="fade-up" data-aos-duration="1500">Get Started</button>
           </div>
   
-          <div class="col-md-4 right-header">
+          <div class="col-md-4 col-12 d-none d-md-block right-header">
             <img class="img-fluid" src="images/ic_header.png" alt="ic-header" data-aos="fade-left"
             data-aos-duration="1500" >
           </div>
@@ -101,7 +101,7 @@
     <section class="statistik" id="statistik">
       <div class="container">
         <div class="row text-center justify-content-center">
-          <div class="col-8 d-none d-md-block">
+          <div class="col-lg-8 col-sm-12">
             <div class="card shadow py-4 d-flex align-items-center">
               <h3><span class="typewriter"></span></h3>
             </div>
@@ -117,21 +117,22 @@
         <!-- payment-method -->
         <section class="payment-method" id="payment-method">
           <div class="row">
-            <div class="col col-md-4" data-aos="fade-right" data-aos-duration="1800" >
-              <h2>Paymant Method</h2>
-              <p class="mt-3">
+            <div class="col-sm-12 col-md-4">
+              <h2 data-aos="fade-right" data-aos-duration="1800">Paymant Method</h2>
+              <p class="mt-3" data-aos="fade-right" data-aos-duration="1800">
               Bisa lakukan pembayaran di berbagai 
               metode, sehingga mempermudah dan
               memberi kenyamanan yang lebih
               kepada pengguna.
               </p>
             </div>
-            <div class="col col-md-8 text-center" data-aos-duration="1500" data-aos-delay="300" data-aos="fade-left" >
-              <img src="images/ic_right_payment_methode.png" alt="Right Icon" class="img-fluid">
+            <div class="col-sm-12 col-md-8 text-center">
+              <img src="images/ic_right_payment_methode.png" alt="Right Icon" class="img-fluid" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="300">
             </div>
           </div>
+
           <div class="row mt-5">
-            <div class="col d-inline text-center">
+            <div class="col-12 d-inline text-center">
               <img src="images/BNI.png" alt="BNI" data-aos="fade-up">
               <img src="images/Alfamart.png" alt="Alfamart" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
               <img src="images/Gopay.png" alt="Gopay" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
@@ -146,8 +147,10 @@
           <div class="row mt-5">
 
             <!-- left section faq -->
-            <div class="col-12 col-md-8 col-lg-6">
+            <div class="col-sm-12 col-lg-6">
+
               <h2 class="ml-4 mb-4" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">Frequently Asked Questions</h2>
+              
               <div id="accordion" class="accordion">
 
                 <!-- faq one -->
@@ -157,7 +160,7 @@
                       Apa itu aplikasi <b>SIAP-Bayar</b> ?
                     </a>
                   </div>
-                  <div id="collapseOne" class="collapse" data-parent="#accordion">
+                  <div id="collapseOne" class="collapse show" data-parent="#accordion">
                     <div class="card-body border-0">
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </div>
@@ -179,8 +182,8 @@
                 </div>
 
                 <!-- faq three -->
-                <div class="card border-0">
-                  <div class="card-header border-0 bg-white" data-aos-delay="400" data-aos="fade-up" data-aos-duration="1000">
+                <div class="card border-0" data-aos-delay="400" data-aos="fade-up" data-aos-duration="1000">
+                  <div class="card-header border-0 bg-white">
                     <a class="btn btn-block btn-faq text-left" data-toggle="collapse" href="#collapseThree">
                       Dimana Saya Bisa Mendapatkan Akun <b>SIAP-Bayar</b> ?
                     </a>
@@ -193,8 +196,8 @@
                 </div>
 
                 <!-- faq four -->
-                <div class="card border-0">
-                  <div class="card-header border-0 bg-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" >
+                <div class="card border-0" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                  <div class="card-header border-0 bg-white">
                     <button class="btn btn-block btn-faq text-left" data-toggle="collapse" href="#collapseFour">
                       Bagaimana Kalau Saya Lupa Password Akun <b>SIAP-Bayar</b> ?
                     </button>
@@ -207,11 +210,12 @@
                 </div>
 
               </div>
+              
             </div>
 
             <!-- right section faq -->
-            <div class="col-12 col-md-4 col-lg-6 text-center" data-aos="zoom-out-down" data-aos-delay="1000">
-              <img src="images/ic_right_faq.png" alt="icon rigght" class="img-fluid">
+            <div class="col-sm-12 col-lg-6 text-center">
+              <img src="images/ic_right_faq.png" alt="icon right" class="img-fluid" data-aos="zoom-in" data-aos-delay="1000">
             </div>
           </div>
         </section>
@@ -224,10 +228,18 @@
       <div class="container">
         <div class="row pt-3">
           <div class="col-md-7 col d-inline">
-            <img src="images/ic_instagram.png" alt="icon instagram" width="30">
-            <img src="images/ic_facebook.png" alt="icon facebook" width="30" class="ml-2">
-            <img src="images/ic_whatsapp.png" alt="icon whatsapp" width="30" class="ml-2">
-            <img src="images/ic_youtube.png" alt="icon youtube" width="30" class="ml-2">
+            <a href="#">
+              <img src="images/ic_instagram.png" alt="icon instagram" width="30">
+            </a>
+            <a href="#">
+              <img src="images/ic_facebook.png" alt="icon facebook" width="30" class="ml-2">
+            </a>
+            <a href="#">
+              <img src="images/ic_whatsapp.png" alt="icon whatsapp" width="30" class="ml-2">
+            </a>
+            <a href="#">
+              <img src="images/ic_youtube.png" alt="icon youtube" width="30" class="ml-2">
+            </a>
           </div>
           <div class="col-md-5 col text-right">
             <p class="help-center">

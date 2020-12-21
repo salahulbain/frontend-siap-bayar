@@ -126,12 +126,6 @@ body {
   font-weight: 550;
 }
 
-.faq .accordion .btn-faq:after {
-  content: '\02795';
-  float: right;
-  color: #071c4d;
-}
-
 footer {
   background: -webkit-gradient(linear, left bottom, left top, from(#d8d8d8), to(rgba(242, 242, 242, 0)));
   background: linear-gradient(to top, #d8d8d8, rgba(242, 242, 242, 0));
@@ -143,5 +137,12 @@ footer .help-center {
 
 footer .footer-text {
   color: #787878;
+}
+
+/* custom ukuran mobile */
+@media (min-width: 576px) and (max-width: 768px) {
+  .payment-method {
+    margin-top: 90px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
